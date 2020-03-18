@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SOF User</string>
+    <string name="reputation_type">Reputation Type: %1s</string>
+    <string name="change">Change: %1s</string>
+    <string name="post_id">Post ID: %1s</string>
+    <string name="reputation">%1s Reputations</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="de_bookmark">UnBookmark</string>
+    <string name="no_bookmark">No bookmark found</string>
+</resources>

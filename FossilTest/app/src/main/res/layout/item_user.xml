@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/user_item_heigh"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/layout_item_user">
+    <ImageView
+        android:id="@+id/im_user_avatar"
+        android:layout_width="@dimen/user_avatar_size"
+        android:layout_height="@dimen/user_avatar_size"
+        android:src="@drawable/indicator_animation"
+        android:paddingStart="@dimen/d15"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/d15"
+        android:gravity="center_vertical">
+        <TextView
+            style="@style/HeaderTextView"
+            android:id="@+id/tv_user_name"
+            android:layout_toStartOf="@id/btn_bookmark"
+            android:layout_alignParentStart="true"
+            android:text="asdasdadsa"
+            android:layout_marginEnd="@dimen/d10"/>
+        <TextView
+            style="@style/TimeTextView"
+            android:id="@+id/tv_last_access"
+            android:layout_toStartOf="@id/btn_bookmark"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_user_name"/>
+        <TextView
+            style="@style/NormalTextView"
+            android:id="@+id/tv_reputation"
+            android:layout_below="@+id/tv_last_access"/>
+        <TextView
+            style="@style/NormalTextView"
+            android:id="@+id/tv_location"
+            android:layout_below="@id/tv_reputation"/>
+
+        <ToggleButton
+            android:id="@+id/btn_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_bookmark_heigh"
+            android:textOff="@string/bookmark"
+            android:textOn="@string/de_bookmark"
+            android:textColor="@drawable/btn_bookmark_selector_text"
+            android:background="@drawable/btn_bookmark_selector"
+            android:paddingHorizontal="@dimen/d15"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/d15"
+            android:layout_marginTop="@dimen/d10"/>
+
+    </RelativeLayout>
+</LinearLayout>

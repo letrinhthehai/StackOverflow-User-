@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_view_normal_size">16sp</dimen>
+    <dimen name="text_view_large_size">17sp</dimen>
+    <dimen name="user_item_heigh">100dp</dimen>
+    <dimen name="user_avatar_size">60dp</dimen>
+    <dimen name="d15">15dp</dimen>
+    <dimen name="d10">10dp</dimen>
+    <dimen name="btn_bookmark_width">115dp</dimen>
+    <dimen name="btn_bookmark_heigh">30dp</dimen>
+    <dimen name="header_height">55dp</dimen>
+    <dimen name="normal_icon_padding">5dp</dimen>
+    <dimen name="loading_image_size">50dp</dimen>
+</resources>
